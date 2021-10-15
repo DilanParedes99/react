@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.bienvenido{
+  background-color:blue;
+  color: white;
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: center;
+
+}
+
+.title{
+  font-size: 6vw;
+  background-color: red;
+  border-radius: 40% ;
+  width: 35%;
+  height: 0%;
+  margin:10% auto;
+  padding:5% auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 660px){
+  .bienvenido{
+    flex-direction: column;
+  }
+}
